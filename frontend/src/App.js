@@ -3,7 +3,7 @@ import HomePage from './components/HomePage'
 import VideoPage from './components/VideoPage'
 import {Switch,Route} from 'react-router-dom'
 export const config={
-  endpoint:'http://localhost:5050/'
+  endpoint:'https://backend-m5y0.onrender.com/'
 }
 function App() {
   return (

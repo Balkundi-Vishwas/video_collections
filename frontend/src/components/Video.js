@@ -2,7 +2,7 @@ import { Box ,Stack,Typography,Button,CircularProgress} from "@mui/material";
 import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 import ThumbDownIcon from "@mui/icons-material/ThumbDown";
 import axios from "axios";
-import {useEffect, useState} from 'react'
+import { useState} from 'react'
 import "./Video.css";
 import { useSnackbar } from "notistack";
 import {config} from '../App'

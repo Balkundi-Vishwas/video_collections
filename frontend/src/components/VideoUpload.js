@@ -10,7 +10,6 @@ import {
   MenuItem,
   FormControl,
   Modal,
-  FormSelect,
 } from "@mui/material";
 import { config } from "../App";
 import dayjs from "dayjs";
@@ -125,31 +124,31 @@ const VideoUpload = ({ defaultApiCall }) => {
     p: 4,
     color: "white",
   };
-  const container = {
-    position: "relative",
-    width: "20rem",
-    left: "50rem",
-    top: "15vh",
-    background: "#181818",
-    padding: "12px",
-    color: "white",
-    borderRadius: "4px",
-    "@media screen and (max-width:1700px)": {
-      position: "relative",
-      left: "25rem",
-      top: "15vh",
-    },
-    "@media screen and (max-width:991px)": {
-      position: "relative",
-      left: "18rem",
-      top: "15vh",
-    },
-    "@media screen and (max-width:767px)": {
-      position: "relative",
-      left: "3.1rem",
-      top: 0,
-    },
-  };
+  // const container = {
+  //   position: "relative",
+  //   width: "20rem",
+  //   left: "50rem",
+  //   top: "15vh",
+  //   background: "#181818",
+  //   padding: "12px",
+  //   color: "white",
+  //   borderRadius: "4px",
+  //   "@media screen and (max-width:1700px)": {
+  //     position: "relative",
+  //     left: "25rem",
+  //     top: "15vh",
+  //   },
+  //   "@media screen and (max-width:991px)": {
+  //     position: "relative",
+  //     left: "18rem",
+  //     top: "15vh",
+  //   },
+  //   "@media screen and (max-width:767px)": {
+  //     position: "relative",
+  //     left: "3.1rem",
+  //     top: 0,
+  //   },
+  // };
 
   const handleOpen = () => setOpen(true);
   const handleClose = () => {

@@ -6,7 +6,6 @@ import HomePage from "./HomePage";
 import Header from "./Header";
 import Video from "./Video";
 import { useSnackbar } from "notistack";
-import { ClimbingBoxLoader } from "react-spinners";
 import { config } from "../App";
 
 const VideoPage = () => {

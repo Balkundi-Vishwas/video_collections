@@ -1,10 +1,9 @@
-import { Box, Grid, Skeleton, Card, Typography } from "@mui/material";
+import { Box, Grid, Skeleton, Card } from "@mui/material";
 import axios from "axios";
 import { useState, useEffect } from "react";
 import Header from "./Header";
 import Filter from "./Filter";
 import VideoCard from "./VideoCard";
-import { ClimbingBoxLoader } from "react-spinners";
 import { useSnackbar } from "notistack";
 import { config } from "../App";
 // export const FilterContext=createContext()
